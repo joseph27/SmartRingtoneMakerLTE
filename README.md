@@ -7,7 +7,7 @@
 
 ![Application preview](https://images2.imgbox.com/19/0a/0Xl20A87_o.png)
 
-### For Full Version : [Here](https://codecanyon.net/item/smart-ringtone-maker/22256598)
+### For Full Premium Version : [Here](https://codecanyon.net/item/smart-ringtone-maker/22256598)
 
 ### Built With
 - [RingDroid](https://github.com/google/ringdroid)
