@@ -1,13 +1,13 @@
 
 # SmartRingtoneMakerLTE
-*Smart Ringtone Maker LTE ** is created with elegance and simplicity in mind to deliver the best User Experience and User Interface and it comes with plenty of features to enrich the music cutting experience 
+*Smart Ringtone Maker LTE ** is an enhanced version of Ringdroid created with elegance and simplicity in mind to deliver the best user experience and User interface and it comes with plenty of features to enrich the music cutting experience such as waveform presentation and smart ringtone suggestions.
 # Preview
 
 ### Screenshot
 
 ![Application preview](https://images2.imgbox.com/19/0a/0Xl20A87_o.png)
 
-### Full Version : [Here](https://codecanyon.net/item/smart-ringtone-maker/22256598)
+### For Full Version : [Here](https://codecanyon.net/item/smart-ringtone-maker/22256598)
 
 ### Built With
 - [RingDroid](https://github.com/google/ringdroid)
