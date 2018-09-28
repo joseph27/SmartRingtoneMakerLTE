@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/editor_main_background"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:layoutDirection="ltr"
+    xmlns:com.zatrek.app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout">
+    >
+
+
+
+    <LinearLayout
+
+        android:id="@+id/editor_container"
+        android:visibility="visible"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/editor_main_background"
+        android:orientation="vertical"
+        android:weightSum="1"
+        xmlns:com.zatrek.app="http://schemas.android.com/apk/res-auto"
+        android:tag="layout">
+
+
+
+        <FrameLayout
+            android:layout_weight="0.4"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            >
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/Editor_waveform_Imageview_Mask_MarginBottom"
+                android:background="@color/editor_waveform_bg_color"
+
+                />
+            <com.ringtone.maker.SoundEditor.WaveformView
+
+                android:id="@+id/waveform"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/Editor_Waveform_MarginBottom"
+                android:layout_marginLeft="@dimen/Editor_Waveform_Marginleft"
+                android:layout_marginRight="@dimen/Editor_Waveform_MarginRight"
+                android:background="@color/editor_waveform_bg_color" />
+
+            <com.ringtone.maker.SoundEditor.MarkerView
+                android:id="@+id/startmarker"
+                android:nextFocusDown="@+id/endmarker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+
+            <com.ringtone.maker.SoundEditor.MarkerView
+                android:id="@+id/endmarker"
+                android:nextFocusDown="@+id/endmarker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:setRotation="180"
+
+                />
+
+            <TextView
+                android:paddingLeft="@dimen/_11sdp"
+                android:paddingRight="@dimen/_11sdp"
+                android:paddingTop="@dimen/_4sdp"
+                android:paddingBottom="@dimen/_4sdp"
+                android:id="@+id/zoom_out"
+                android:layout_width="wrap_content"
+                android:text="-"
+                android:textColor="@color/editor_zoom_color"
+                android:textSize="35sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:paddingLeft="@dimen/_11sdp"
+                android:paddingRight="@dimen/_11sdp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+
+                android:id="@+id/zoom_in"
+                android:layout_marginRight="20dp"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:text="+"
+                android:textColor="@color/editor_zoom_color"
+                android:textSize="25sp"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="0.4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:weightSum="1"
+
+            >
+
+
+            <com.ringtone.maker.Views.CustomTextView
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:id="@+id/Editor_song_title"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textColor="@color/editor_song_title_color"
+                com.zatrek.app:fontName="Oswald-Regular.ttf"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:lines="1"
+                android:layout_weight="0.23"
+                android:textSize="25sp"
+                android:paddingBottom="10dp"
+                />
+
+
+            <LinearLayout
+                android:baselineAligned="true"
+                android:layout_weight="0.40"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="3"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:minWidth="@dimen/editor_start_container_minWidth"
+                    >
+
+
+
+                    <com.ringtone.maker.Views.CustomTextView
+
+                        android:id="@+id/starttext"
+                        android:layout_width="@dimen/Editor_StartText_width"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        com.zatrek.app:fontName="Oswald-Regular.ttf"
+                        android:inputType="number|numberDecimal"
+                        android:textColor="@color/editor_start_end_value_text_color"
+                        android:textSize="@dimen/Editor_StartText_TextSize"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+                    <com.ringtone.maker.Views.CustomTextView
+                        android:layout_above="@+id/starttext"
+                        android:id="@+id/mark_start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/editor_start_end_title_text_color"
+                        android:textSize="@dimen/Editor_End_Marker_textsize"
+                        android:text="@string/editor_starts"
+                        com.zatrek.app:fontName="Oswald-Regular.ttf"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    >
+
+
+                    <com.ringtone.maker.Views.PlayPauseView
+                        android:id="@+id/Play_Pause_View"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:contentDescription="@null"
+                        android:layout_centerInParent="true"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:scaleType="center"
+                        app:backgroundcolor="@color/editor_playpause_background"
+                        app:PlayPauseArrow_color="@color/editor_playpause_arrow_color"
+                        app:PlayPauseView_width="@dimen/_8sdp"
+                        app:PlayPauseView_distance="-1dp"
+                        app:PlayPauseView_height="@dimen/_16sdp"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:minWidth="@dimen/Editor_container_End_MinWidth"
+                    >
+
+
+
+                    <com.ringtone.maker.Views.CustomTextView
+                        android:id="@+id/endtext"
+                        android:layout_width="@dimen/editor_textview_shape_width"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:inputType="number|numberDecimal"
+                        android:textColor="@color/editor_start_end_value_text_color"
+                        android:textSize="@dimen/Editor_End_Marker_Numbers_Textsize"
+                        com.zatrek.app:fontName="Oswald-Regular.ttf"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+                    <com.ringtone.maker.Views.CustomTextView
+                        android:layout_above="@id/endtext"
+                        android:id="@+id/mark_end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/editor_start_end_title_text_color"
+                        android:textSize="@dimen/Editor_End_Marker_textsize"
+                        com.zatrek.app:fontName="Oswald-Regular.ttf"
+                        android:text="@string/edtior_ends"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+
+            android:layout_weight="0.2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingRight="@dimen/_30sdp"
+            android:id="@+id/Layout_ButtonDone_hoster"
+            android:paddingLeft="@dimen/_30sdp"
+            android:visibility="visible">
+
+
+            <com.ringtone.maker.Views.CustomButton
+                com.zatrek.app:fontName="Oswald-Regular.ttf"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:id="@+id/Button_Done"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/next_button_unpressed"
+                android:text="@string/editor_cut"
+                android:textColor="@color/editor_save_text_color"
+                android:textSize="@dimen/_13ssp"
+                />
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <io.codetail.widget.RevealFrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+        <LinearLayout
+
+            android:id="@+id/options_container"
+            android:background="@color/editor_options_background"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            android:layout_height="match_parent">
+
+
+
+            <ImageView
+                android:id="@+id/image_Cancel"
+                android:layout_margin="10dp"
+                android:layout_width="@dimen/_25sdp"
+                android:src="@drawable/ic_cancel"
+                android:visibility="visible"
+                android:clickable="true"
+                android:layout_height="@dimen/_25sdp"
+                android:focusable="true" />
+
+
+            <LinearLayout
+                android:layout_marginLeft="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_120sdp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layoutDirection="ltr"
+                    android:id="@+id/Editor_Ringtone"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_editor_ringtone"
+                        />
+
+                    <com.ringtone.maker.Views.CustomTextView
+                        xmlns:com.zatrek.app="http://schemas.android.com/apk/res-auto"
+                        com.zatrek.app:fontName="Roboto-Light.ttf"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/edior_options_text_color"
+                        android:textSize="@dimen/_16ssp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menu_set_as_ringtone"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layoutDirection="ltr"
+                    android:id="@+id/Editor_Alarm"
+                    android:layout_marginTop="@dimen/_20sdp"
+                     android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_editor_alarm"
+                        />
+
+                    <com.ringtone.maker.Views.CustomTextView
+                        xmlns:com.zatrek.app="http://schemas.android.com/apk/res-auto"
+                        com.zatrek.app:fontName="Roboto-Light.ttf"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/edior_options_text_color"
+                        android:textSize="@dimen/_16ssp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menu_set_as_alarm"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layoutDirection="ltr"
+                    android:id="@+id/Editor_Notification"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_editor_notificaiton"
+                        />
+
+                    <com.ringtone.maker.Views.CustomTextView
+                        xmlns:com.zatrek.app="http://schemas.android.com/apk/res-auto"
+                        com.zatrek.app:fontName="Roboto-Light.ttf"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/edior_options_text_color"
+                        android:textSize="@dimen/_16ssp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menu_set_as_notification"/>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layoutDirection="ltr"
+                    android:id="@+id/Editor_Save"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_editor_save"
+                        />
+
+                    <com.ringtone.maker.Views.CustomTextView
+                        xmlns:com.zatrek.app="http://schemas.android.com/apk/res-auto"
+                        com.zatrek.app:fontName="Roboto-Light.ttf"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/edior_options_text_color"
+                        android:textSize="@dimen/_16ssp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menu_save_in_internal_storage"/>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layoutDirection="ltr"
+                    android:id="@+id/Editor_Contacts"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_editor_contact"
+                        />
+
+                    <com.ringtone.maker.Views.CustomTextView
+                        xmlns:com.zatrek.app="http://schemas.android.com/apk/res-auto"
+                        com.zatrek.app:fontName="Roboto-Light.ttf"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/edior_options_text_color"
+                        android:textSize="@dimen/_16ssp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/context_menu_contact"/>
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </io.codetail.widget.RevealFrameLayout>
+
+
+
+</RelativeLayout>
+

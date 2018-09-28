@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Smart RingTone Maker LTE</string>
+
+
+    <string name="Google_Play_Link"><![CDATA[https://codecanyon.net/item/smart-ringtone-maker/22256598]]></string>
+
+    <!--
+    app directories
+   -->
+
+
+    <string name="search">Search</string>
+
+
+    //introducation screen
+    <string name="intro1_title">Designed for simplicity</string>
+    <string name="intro2_title">Smart Suggestions</string>
+    <string name="intro3_title">Beautiful Animations</string>
+
+    <string name="into1_desc">Smart Ringtone maker makes it simple to get your music cut in a matter of seconds built in Koltin for Maximum performance</string>
+    <string name="into2_desc">Enjoy New Way of using Music through Smart Tones suggestions Using Firebase </string>
+    <string name="into3_desc">RingTone Maker is created with elegance and beauty in mind using Material design guidelines and with a meaningful animations to create a wonderful ui/ux experience </string>
+
+
+
+    <string name="Edit_Done_Toast">Done Successfully</string>
+
+
+    //introducation screen
+    <string name="feedback_option_summary">massage</string>
+    <string name="feedback_option_title">Title</string>
+    <string name="about_title">Smart RingTone Maker LTE Developed by Zatrek Team</string>
+    <string name="about_licences">Licences</string>
+    <string name="feedback_title">Tell us your feedback</string>
+    <string name="settings_toolbar_title">Settings</string>
+    <string name="alert_dialog_edit">Edit</string>
+    <string name="alert_dialog_set">Set</string>
+    <string name="menu_set_as_ringtone">Set as Ringtone</string>
+    <string name="menu_set_as_notification">Set As Notification</string>
+    <string name="menu_set_as_alarm">Set As Alarm</string>
+    <string name="menu_save_in_internal_storage">Save in Internal Storage</string>
+    <string name="main_menu_settings">Settings</string>
+
+    <string name="feedback_options_send_text">Send</string>
+    <string name="edit_loading_text">Loading ...</string>
+
+    <string name="editor_error">Error</string>
+    <string name="editor_error_msg">Error</string>
+    <string name="feedback_options_title_nodata_toast">You did not enter a Title</string>
+    <string name="feedback_options_summery_nodata_toast">You did not enter a Summery</string>
+
+    // notification
+    <string name="notification_alert_title1">Hey,</string>
+    <string name="notification_alert_title2">Make,</string>
+    <string name="notification_alert_title3"> Your new </string>
+
+
+    // Hello Alex , How about Hello-Adele As ringtone  for Explaination
+    <string name="alertdialog_title1">"Hello, "</string>
+    <string name="alertdialog_title2">How about </string>
+    <string name="alertdialog_title3">as RingTone?</string>
+    <string name="alertdialog_Well_done">Well Done !</string>
+
+
+
+    <string name="editor_cut">Save</string>
+    <string name="edtior_ends">END</string>
+    <string name="editor_starts">START</string>
+    <string name="dialog_saving">Saving</string>
+
+
+    <string name="btn_next">Next</string>
+    <string name="btn_getstarted">Get Started!</string>
+
+
+    <string name="menu_home">HOME</string>
+    <string name="menu_history">HISTORY</string>
+    <string name="menu_gopro">GO PRO</string>
+    <string name="menu_feedback">FEEDBACK</string>
+    <string name="menu_invitefriends">INVITE FRIENDS</string>
+    <string name="menu_shareapp">SHARE APP</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_smartsuggestion">SMART SUGGESTION!</string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="sharetitle">Download RingToneMaker!</string>
+
+
+    <string name="context_menu_delete">Delete</string>
+    <string name="context_menu_contact">Assign to Contact</string>
+    <string name="contacts">Contacts</string>
+
+    <string name="default_ringtone_success_message">Changed default ringtone</string>
+    <string name="about_ringdroid">RingDroid</string>
+    <string name="about_appversion">Version 2.1</string>
+
+    <string name="your_records_are_clean">Your records are clean!</string>
+    <string name="no_history_yet_download_contents_and_it_will_show_up_here">No history yet, Set Tones and it will show up here</string>
+    <string name="nothing_here_only_cool_ghosts">No Music here only cool Ghosts</string>
+    <string name="Default_Notification_Title">Firebase Cloud or Push Notification</string>
+
+    <string name="Exist_Toast">Please click BACK again to exit</string>
+    <string name="application_permission">Application Permission</string>
+    <string name="permission_description">Ringtone Maker needs to Read your Music Library in order to use The application functions properly</string>
+    <string name="editor_selected_line_paint_color">#565656</string>
+
+
+
+
+
+
+
+    <string name="intro_next">Next</string>
+    <string name="intro_skip">Skip</string>
+
+    <string name="toolbar_title">All Audio</string>
+
+
+    <string name="settings_general">General</string>
+    <string name="settings_push_notification_title">Push Notifications</string>
+    <string name="settings_display_name">Display Name</string>
+    <string name="editor_back_dialog_title">Pick an Action</string>
+    <string name="editor_back_dialog_discard">Discard</string>
+    <string name="editor_back_dialog_cancel">Cancel</string>
+    <string name="feedback_options_sent_text">Sent</string>
+    <string name="e_error_loading">Error while loading sound file</string>
+
+
+
+
+</resources>

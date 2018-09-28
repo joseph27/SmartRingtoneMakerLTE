@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:z.ringtonemaker="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/welcome_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    android:tag="1"
+    android:weightSum="1">
+
+    <com.ringtone.maker.Views.CustomImageView
+        android:id="@+id/frag_img"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_90sdp"
+        android:clipChildren="false"
+        android:padding="@dimen/_7sdp"
+        android:src="@drawable/intro1_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:HeightRatio="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <com.ringtone.maker.Views.CustomTextView
+        android:id="@+id/frag_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:clipChildren="false"
+        android:gravity="center"
+        android:text="@string/intro2_title"
+        android:textColor="@color/intro_title_text_color"
+        android:textSize="@dimen/intro_title_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:fontName="Oswald-Regular.ttf"
+        app:layout_constraintTop_toBottomOf="@+id/frag_img" />
+
+
+    <com.ringtone.maker.Views.CustomTextView
+        android:id="@+id/frag_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_7sdp"
+        app:fontName="Roboto-Light.ttf"
+        android:text="@string/into2_desc"
+        android:textColor="@color/intro_desc_text_color"
+        android:textSize="@dimen/intro_desc_size"
+        app:layout_constraintTop_toBottomOf="@+id/frag_title" />
+
+
+</android.support.constraint.ConstraintLayout>

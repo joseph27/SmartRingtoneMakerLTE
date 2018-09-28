@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/about_main_background"
+    xmlns:com.zatrek.zatrekcut="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:gravity="start"
+        />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:clipChildren="false"
+            android:layout_height="@dimen/_180sdp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/about_bg"
+                android:contentDescription="default background for the icon"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:layout_width="@dimen/_85sdp"
+                android:layout_height="@dimen/_85sdp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_gravity="center"
+                android:contentDescription="You can change this icon as you wish"
+                tools:ignore="HardcodedText" />
+
+        </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_35sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <com.ringtone.maker.Views.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            com.zatrek.zatrekcut:fontName="Roboto-Thin.ttf"
+            android:textColor="@color/about_about_text_color"
+            android:text="@string/about_title"
+            android:layout_gravity="center"
+            />
+        <com.ringtone.maker.Views.CustomTextView
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            com.zatrek.zatrekcut:fontName="Roboto-Thin.ttf"
+            android:textColor="@color/about_version_text_color"
+            android:text="@string/about_appversion"
+            android:layout_gravity="center"
+            />
+
+
+        <com.ringtone.maker.Views.CustomTextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            com.zatrek.zatrekcut:fontName="Roboto-Regular.ttf"
+            android:textColor="@color/about_licences_text_color"
+            android:text="@string/about_licences"
+            android:textSize="@dimen/about_licences_textsize"
+            android:layout_gravity="center"
+            />
+
+
+        <com.ringtone.maker.Views.CustomTextView
+            android:layout_marginTop="@dimen/_14sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            com.zatrek.zatrekcut:fontName="Roboto-Light.ttf"
+            android:textColor="@color/about_libraray_text_color"
+            android:text="@string/about_ringdroid"
+            android:textSize="@dimen/_14ssp"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

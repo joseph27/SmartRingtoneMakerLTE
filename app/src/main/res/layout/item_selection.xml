@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:com.zatrek.zatrekcut="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/_4sdp"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:layout_height="@dimen/_80sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp">
+
+
+        <ImageView
+            android:id="@+id/Album_art_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/default_album_art"
+            android:scaleType="centerCrop"/>
+
+
+
+        <LinearLayout
+            android:id="@+id/ImageArt_bg_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/music_thumbnail_card_height"
+            android:orientation="vertical">
+
+            <com.ringtone.maker.Views.CustomTextView
+                android:paddingRight="40dp"
+                android:paddingLeft="40dp"
+                android:ellipsize="end"
+                android:id="@+id/song_title"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                com.zatrek.zatrekcut:fontName="Roboto-Regular.ttf"
+                android:textColor="@color/song_title_color"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:lines="1"
+                android:text="Over The Horzion - Samsung"/>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_7sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+
+
+                <ImageButton
+
+                    android:id="@+id/audio_button_play"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:background="@android:color/transparent"
+                    android:layout_height="@dimen/wave_playpause_size"
+                    android:src="@drawable/thumb_ic_play"
+
+                    />
+
+
+                <com.ringtone.maker.Views.audiowave.ThumbWaveView
+                    android:layout_weight="0.60"
+                    android:id="@+id/audio_wave"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:animateExpansion="false"
+                    app:chunkHeight="40dp"
+                    app:chunkRadius="1dp"
+                    app:chunkSpacing="2dp"
+                    app:chunkWidth="1dp"
+                    app:minChunkHeight="1dp"
+                    app:waveColor="@color/wave_color"
+                    app:waveFilledColor="@color/wave_filled_color"
+                    />
+
+                <TextView
+                    android:layout_weight="0.2"
+                    android:id="@+id/song_duration"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_gravity="center_vertical"
+                    android:text="00:00"/>
+
+                <ImageView
+                    android:id="@+id/overflow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:ellipsize="end"
+                    android:padding="@dimen/_4sdp"
+                    app:srcCompat="@drawable/dots_vertical"
+                    android:visibility="visible"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

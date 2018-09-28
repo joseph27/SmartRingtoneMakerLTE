@@ -1,0 +1,72 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/Welcome_Container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/intro_indicator_container"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent"
+        >
+
+        <com.ringtone.maker.Views.InkPageIndicator
+            android:id="@+id/mi_pager_indicator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:dotDiameter="@dimen/intro_indicator_dotdiameter"
+            app:dotGap="@dimen/intro_indicator_dotgap"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginRight="@dimen/Welc_Fragc_getstarted_marginright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/intro_action_txt_size"
+        android:id="@+id/btn_next"
+        android:layout_marginBottom="@dimen/Welc_Fragc_getstarted_marginbottom"
+        android:textColor="@android:color/white"
+        android:text="@string/intro_next"
+        android:clickable="true"
+        android:background="?android:selectableItemBackground"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Welc_Fragc_getstarted_marginright"
+        android:textSize="@dimen/intro_action_txt_size"
+        android:id="@+id/btn_skip"
+        android:layout_marginBottom="@dimen/Welc_Fragc_getstarted_marginbottom"
+        android:textColor="@android:color/white"
+        android:text="@string/intro_skip"
+        android:clickable="true"
+        android:background="?android:selectableItemBackground"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ringtone.maker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.sec.android.iap.permission.BILLING" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:remove="android:maxSdkVersion"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+
+    <application
+        android:name="com.ringtone.maker.UILapplication"
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name="com.ringtone.maker.Activties.Activity_Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="com.ringtone.maker.Activties.Activity_Editor"
+            android:hardwareAccelerated="true">
+            <intent-filter android:label="Edit" >
+                <action android:name="android.intent.action.EDIT" />
+
+                <data android:mimeType="audio/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.OPENABLE" />
+
+                <data android:mimeType="audio/*" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.ringtone.maker.Activties.Activity_Main">
+        </activity>
+
+        <activity
+            android:name=".Activties.Activity_About">
+        </activity>
+
+        <activity
+            android:name="com.ringtone.maker.Activties.Activity_Feedback">
+        </activity>
+
+        <activity
+            android:name=".Activties.Activity_ContactsChoice">
+        </activity>
+
+        <receiver android:name=".Receivers.MusicActivityTracker" >
+            <intent-filter>
+                <action android:name="com.android.music.metachanged" >
+                </action>
+                <action android:name="com.htc.music.metachanged" >
+                </action>
+                <action android:name="fm.last.android.metachanged" >
+                </action>
+                <action android:name="com.sec.android.app.music.metachanged" >
+                </action>
+                <action android:name="com.nullsoft.winamp.metachanged" >
+                </action>
+                <action android:name="com.amazon.mp3.metachanged" >
+                </action>
+                <action android:name="com.miui.player.metachanged" >
+                </action>
+                <action android:name="com.real.IMP.metachanged" >
+                </action>
+                <action android:name="com.rdio.android.metachanged" >
+                </action>
+                <action android:name="com.samsung.sec.android.MusicPlayer.metachanged" >
+                </action>
+                <action android:name="com.andrew.apollo.metachanged" >
+                </action>
+                <action android:name="com.sonyericsson.music.metachanged" >
+                </action>
+                <action android:name="com.real.IMP.metachanged" >
+                </action>
+            </intent-filter>
+        </receiver>
+        <service android:name=".Services.GenerateWaveFormCache" >
+        </service>
+
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/transparent" />
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+
+
+</manifest>

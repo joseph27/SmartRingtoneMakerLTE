@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <dimen name="intro_indicator_container">20dp</dimen>
+    <dimen name="intro_indicator_dotdiameter">10dp</dimen>
+    <dimen name="intro_indicator_dotgap">8dp</dimen>
+
+
+    <dimen name="intro_title_size">23sp</dimen>
+    <dimen name="intro_desc_size">17sp</dimen>
+
+    <dimen name="intro_action_txt_size">15sp</dimen>
+
+    <dimen name="Welc_Fragc_getstarted_marginright">20dp</dimen>
+    <dimen name="Welc_Fragc_getstarted_marginbottom">15dp</dimen>
+
+
+    <integer name="MarkanimationWidthStroke">8</integer>
+    <integer name="hello_card_corner_radius">7</integer>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="cpb_stroke_width">3dp</dimen>
+
+
+    <dimen name="Feedback_Text_size">18sp</dimen>
+    <dimen name="Feedback_Image_size_small">30dp</dimen>
+    <dimen name="rounded_height_edge">50dp</dimen>
+    <dimen name="feedback_Title_margintop">30dp</dimen>
+    <dimen name="feedback_title_Padding">10dp</dimen>
+
+
+    <dimen name="music_thumbnail_card_height">120dp</dimen>
+    <dimen name="wave_playpause_size">48dp</dimen>
+    <dimen name="music_recuclerview_margin">10dp</dimen>
+
+
+    <dimen name="about_licences_textsize">30sp</dimen>
+    <dimen name="about_home_title_margin">10dp</dimen>
+    <dimen name="about_home_title_size">17sp</dimen>
+    <dimen name="feedback_option_margin">30dp</dimen>
+    <dimen name="feedback_option_icon_marginleft">30dp</dimen>
+    <dimen name="feedback_option_text_margin_left">25dp</dimen>
+    <dimen name="feedback_option_text_margin_right">25dp</dimen>
+    <dimen name="feedback_massage_minheight">150dp</dimen>
+    <dimen name="feedback_massage_margintop">10dp</dimen>
+
+    <dimen name="editor_start_container_minWidth">70dp</dimen>
+    <dimen name="Editor_StartText_width">80dp</dimen>
+    <dimen name="Editor_StartText_TextSize">20sp</dimen>
+    <dimen name="Editor_container_End_MinWidth">70dp</dimen>
+    <dimen name="Editor_End_Marker_textsize">14sp</dimen>
+    <dimen name="Editor_End_Marker_Numbers_Textsize">20sp</dimen>
+    <dimen name="Editor_Waveform_Marginleft">12dp</dimen>
+    <dimen name="Editor_Waveform_MarginRight">12dp</dimen>
+    <dimen name="Editor_Waveform_MarginBottom">20dp</dimen>
+    <dimen name="Editor_waveform_Imageview_Mask_MarginBottom">20dp</dimen>
+    <dimen name="editor_textview_shape_width">80dp</dimen>
+    <dimen name="dialog_markview_mask_size">50dp</dimen>
+    <dimen name="dialog_markview_size">50dp</dimen>
+    <dimen name="dialog_markview_title_top">10dp</dimen>
+    <dimen name="dialog_markview_text_size">20sp</dimen>
+    <dimen name="dialog_edit_Text_size">14sp</dimen>
+    <dimen name="dialog_edit_padding">5dp</dimen>
+    <dimen name="Dialog_EditButton_size">45dp</dimen>
+    <dimen name="Dialog_EditButton_padding">10dp</dimen>
+    <dimen name="Dialog_EditButton_container_margintop">15dp</dimen>
+    <dimen name="Dialog_EditButton_container_marginleft">50dp</dimen>
+    <dimen name="alert_play_pause_view_inner_width">5dp</dimen>
+    <dimen name="alert_play_pause_view_inner_distance">5dp</dimen>
+    <dimen name="alert_play_pause_view_inner_height">20dp</dimen>
+    <dimen name="alert_play_pause_view_width">25dp</dimen>
+    <dimen name="alert_play_pause_view_height">25dp</dimen>
+    <dimen name="circle_shape_nocolor_size">80dp</dimen>
+    <dimen name="dialog_progressbar_size">100dp</dimen>
+    <dimen name="Dialog_Setbutton_size">45dp</dimen>
+    <dimen name="Dialog_Setbutton_size_padding">10dp</dimen>
+    <dimen name="customdialog_text2">10dp</dimen>
+    <dimen name="customdialog_text2_marginright">20dp</dimen>
+    <dimen name="customdialog_text2_textsize">15sp</dimen>
+    <dimen name="customdialog_text1_Textsize">20sp</dimen>
+    <dimen name="dialog_not_margin_30dp">30dp</dimen>
+    <dimen name="Dialog_Setbutton_revealcontainer_size">45dp</dimen>
+    <dimen name="dialog_margin_7dp">7dp</dimen>
+    <dimen name="dialog_ringtone_tone_large">40dp</dimen>
+    <dimen name="dialog_ringtone_tone_large_height">40dp</dimen>
+    <dimen name="dialog_ringtone_margin_right">5dp</dimen>
+    <dimen name="dialog_ringtone_tone_medium_width">30dp</dimen>
+    <dimen name="dialog_ringtone_tone_medium_height">30dp</dimen>
+    <dimen name="dialog_ringtone_tone_medium_margin_top">5dp</dimen>
+    <dimen name="dialog_ringtone_tone_medium_margin_right">15dp</dimen>
+    <dimen name="dialog_ringtone_tone_small_height">20dp</dimen>
+    <dimen name="dialog_ringtone_tone_small_margin_top">10dp</dimen>
+    <dimen name="dialog_ringtone_tone_small_width">20dp</dimen>
+    <dimen name="dialog_device_image_height">110dp</dimen>
+    <dimen name="dialog_device_image_width">90dp</dimen>
+    <dimen name="dialog_device_image_margintop">15dp</dimen>
+    <dimen name="Dialog_ringtone_linearLayout2">110dp</dimen>
+    <dimen name="Dialog_ringtone_padding">5dp</dimen>
+    <dimen name="dialog_ringtone_framelayout_margin_left">20dp</dimen>
+    <dimen name="dialog_ringtone_framelayout_width">110dp</dimen>
+    <dimen name="dialog_ringtone_framelayout_height">130dp</dimen>
+    <dimen name="Dialog_Setbutton_text_size">14sp</dimen>
+    <dimen name="Dialog_Setbutton_text_clipping">5dp</dimen>
+    <dimen name="ringtone_dialog_imageView4">25dp</dimen>
+    <dimen name="dialog_Setbutton_Container_margintop">15dp</dimen>
+    <dimen name="dialog_Setbutton_Container_marginRight">50dp</dimen>
+    <integer name="Dialog_height">270</integer>
+
+
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:fitsSystemWindows="true"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:com.zatrek.cut="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+<android.support.design.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_marginRight="@dimen/music_recuclerview_margin"
+            android:layout_marginLeft="@dimen/music_recuclerview_margin"
+            android:layout_marginTop="@dimen/music_recuclerview_margin"
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+            />
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/history_empty_state_Container"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="match_parent">
+
+
+
+
+        <ImageView
+            android:layout_marginTop="@dimen/_119sdp"
+            android:id="@+id/history_empty_state"
+            android:layout_centerHorizontal="true"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_170sdp" />
+
+
+        <com.ringtone.maker.Views.CustomTextView
+            xmlns:com.zatrek.app="http://schemas.android.com/apk/res-auto"
+            com.zatrek.app:fontName="Roboto-Regular.ttf"
+            android:textSize="@dimen/_15ssp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:alpha="0"
+            android:layout_below="@+id/history_empty_state"
+            android:id="@+id/no_data_text1" />
+
+        <com.ringtone.maker.Views.CustomTextView
+            xmlns:com.zatrek.app="http://schemas.android.com/apk/res-auto"
+            com.zatrek.app:fontName="Roboto-ThinItalic.ttf"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:id="@+id/no_data_text2"
+            android:layout_marginLeft="@dimen/_22sdp"
+            android:layout_marginRight="@dimen/_22sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:layout_below="@+id/no_data_text1"
+            android:layout_centerHorizontal="true" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,18 @@
+<ripple xmlns:tools="http://schemas.android.com/tools"
+    android:color="@color/colorAccent"
+    android:radius="100dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:keep="@drawable/circle_shape">
+    <item >
+        <shape
+            android:shape="rectangle">
+            <stroke
+                android:width="1dp"
+                android:color="#ffffff" />
+            <corners android:bottomRightRadius="100dp"
+                android:bottomLeftRadius="100dp"
+                android:topRightRadius="100dp"
+                android:topLeftRadius="100dp"/>
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "607853207312",
+    "firebase_url": "https://smart-ringtone-maker.firebaseio.com",
+    "project_id": "smart-ringtone-maker",
+    "storage_bucket": "smart-ringtone-maker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607853207312:android:08c4276d4ac2c06b",
+        "android_client_info": {
+          "package_name": "smart.ringtone.codecanyon.lte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607853207312-sssj92jlufhuc4j7us79v0vq9k3123r6ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFgyCWOk0CcAKpw9zTqtny2JdmBQpOjg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

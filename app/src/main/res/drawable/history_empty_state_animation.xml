@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+      >
+
+    <aapt:attr name="android:drawable">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="274dp"
+            android:height="136dp"
+            android:viewportWidth="274.0"
+            android:viewportHeight="136.0">
+
+
+            <path
+                android:name="group4_6"
+                android:pathData="M78,10c0,0.55 2.65,1 6,1 3.35,0 6,-0.45 6,-1 0,-0.55 -2.65,-1 -6,-1 -3.35,0 -6,0.45 -6,1z"
+                android:strokeColor="#00000000"
+                android:fillAlpha="0"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group4_5"
+                android:pathData="M119,20c0,0.6 4.35,1 11,1 6.65,0 11,-0.4 11,-1 0,-0.6 -4.35,-1 -11,-1 -6.65,0 -11,0.4 -11,1z"
+                android:strokeColor="#00000000"
+                android:fillAlpha="0"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group3_0"
+                android:fillAlpha="0"
+                android:pathData="M169.2,30.2c-1.7,1.7 -1.7,49.9 0,51.6 1.7,1.7 39.9,1.7 41.6,0 1.7,-1.7 1.7,-49.9 0,-51.6 -1.7,-1.7 -39.9,-1.7 -41.6,0zM209.5,56l0,24.5 -19.5,0 -19.5,0 -0.25,-23.5c-0.15,-12.9 -0.05,-24.05 0.2,-24.75 0.4,-1 4.75,-1.25 19.8,-1l19.25,0.25 0,24.5z"
+                android:strokeColor="#00000000"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group3_1"
+                android:fillAlpha="0"
+                android:pathData="M176,39c0,0.6 5.35,1 14,1 8.65,0 14,-0.4 14,-1 0,-0.6 -5.35,-1 -14,-1 -8.65,0 -14,0.4 -14,1z"
+                android:strokeColor="#00000000"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group3_2"
+                android:fillAlpha="0"
+                android:pathData="M176,46c0,0.6 3.65,1 9,1 5.35,0 9,-0.4 9,-1 0,-0.6 -3.65,-1 -9,-1 -5.35,0 -9,0.4 -9,1z"
+                android:strokeColor="#00000000"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group3_3"
+                android:fillAlpha="0"
+                android:pathData="M176,73c1.85,1.2 24.75,1.2 27.5,0 1.25,-0.55 -3.9,-0.9 -13.5,-0.9 -10.35,-0.05 -15,0.25 -14,0.9z"
+                android:strokeColor="#00000000"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group2_0"
+                android:fillAlpha="0"
+                android:pathData="M115.2,40.2c-1.7,1.7 -1.7,49.9 0,51.6 1.7,1.7 39.9,1.7 41.6,0 1.7,-1.7 1.7,-49.9 0,-51.6 -1.7,-1.7 -39.9,-1.7 -41.6,0zM155.5,66l0,24.5 -19.5,0 -19.5,0 -0.25,-23.5c-0.15,-12.9 -0.05,-24.05 0.2,-24.75 0.4,-1 4.75,-1.25 19.8,-1l19.25,0.25 0,24.5z"
+                android:strokeColor="#00000000"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group2_1"
+                android:fillAlpha="0"
+                android:pathData="M122,49c0,0.6 5.35,1 14,1 8.65,0 14,-0.4 14,-1 0,-0.6 -5.35,-1 -14,-1 -8.65,0 -14,0.4 -14,1z"
+                android:strokeColor="#00000000"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group2_2"
+                android:fillAlpha="0"
+                android:pathData="M122,56c0,0.6 3.65,1 9,1 5.35,0 9,-0.4 9,-1 0,-0.6 -3.65,-1 -9,-1 -5.35,0 -9,0.4 -9,1z"
+                android:strokeColor="#00000000"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group2_3"
+                android:fillAlpha="0"
+                android:pathData="M121.5,83c1.1,0.45 7.4,0.85 14,0.85 6.6,0 12.9,-0.4 14,-0.85 1.25,-0.55 -4.2,-0.85 -14,-0.85 -9.8,0 -15.25,0.3 -14,0.85z"
+                android:strokeColor="#00000000"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group4_0"
+                android:fillAlpha="0"
+                android:pathData="M25,50c0,0.6 4.35,1 11,1 6.65,0 11,-0.4 11,-1 0,-0.6 -4.35,-1 -11,-1 -6.65,0 -11,0.4 -11,1z"
+                android:strokeColor="#00000000"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group1_0"
+                android:fillAlpha="0"
+                android:pathData="M61.2,50.2c-1.7,1.7 -1.7,49.9 0,51.6 1.7,1.7 39.9,1.7 41.6,0 1.7,-1.7 1.7,-49.9 0,-51.6 -1.7,-1.7 -39.9,-1.7 -41.6,0zM101.5,76l0,24.5 -19.5,0 -19.5,0 -0.25,-23.5c-0.15,-12.9 -0.05,-24.05 0.2,-24.75 0.4,-1 4.75,-1.25 19.8,-1l19.25,0.25 0,24.5z"
+                android:strokeColor="#00000000"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group1_1"
+                android:fillAlpha="0"
+                android:pathData="M68,59c0,0.6 5.35,1 14,1 8.65,0 14,-0.4 14,-1 0,-0.6 -5.35,-1 -14,-1 -8.65,0 -14,0.4 -14,1z"
+                android:strokeColor="#00000000"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group1_2"
+                android:fillAlpha="0"
+                android:pathData="M68,66c0,0.6 3.65,1 9,1 5.35,0 9,-0.4 9,-1 0,-0.6 -3.65,-1 -9,-1 -5.35,0 -9,0.4 -9,1z"
+                android:strokeColor="#00000000"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group1_3"
+                android:fillAlpha="0"
+                android:pathData="M67.5,93c1.1,0.45 7.4,0.85 14,0.85 6.6,0 12.9,-0.4 14,-0.85 1.25,-0.55 -4.2,-0.85 -14,-0.85 -9.8,0 -15.25,0.3 -14,0.85z"
+                android:strokeColor="#00000000"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group4_1"
+                android:fillAlpha="0"
+                android:pathData="M229,55c0,0.6 4.35,1 11,1 6.65,0 11,-0.4 11,-1 0,-0.6 -4.35,-1 -11,-1 -6.65,0 -11,0.4 -11,1z"
+                android:strokeColor="#00000000"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group4_1"
+                android:fillAlpha="0"
+                android:pathData="M33,100c0,0.55 2.65,1 6,1 3.35,0 6,-0.45 6,-1 0,-0.55 -2.65,-1 -6,-1 -3.35,0 -6,0.45 -6,1z"
+                android:strokeColor="#00000000"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group4_2"
+                android:fillAlpha="0"
+                android:pathData="M195,101c0,0.6 4.35,1 11,1 6.65,0 11,-0.4 11,-1 0,-0.6 -4.35,-1 -11,-1 -6.65,0 -11,0.4 -11,1z"
+                android:strokeColor="#00000000"
+                android:fillColor="#ffffff"/>
+            <path
+                android:name="group4_3"
+                android:fillAlpha="0"
+                android:pathData="M145,120c0,0.55 2.65,1 6,1 3.35,0 6,-0.45 6,-1 0,-0.55 -2.65,-1 -6,-1 -3.35,0 -6,0.45 -6,1z"
+                android:strokeColor="#00000000"
+                android:fillColor="#ffffff"/>
+        </vector>
+
+    </aapt:attr>
+
+
+
+    <target
+        android:name="group1_0"
+        android:animation="@animator/history_alpha_1" />
+
+
+    <target
+        android:name="group1_1"
+        android:animation="@animator/history_alpha_1" />
+
+
+    <target
+        android:name="group1_2"
+        android:animation="@animator/history_alpha_1" />
+
+
+    <target
+        android:name="group1_3"
+        android:animation="@animator/history_alpha_1" />
+
+
+
+
+    <target
+        android:name="group2_0"
+        android:animation="@animator/history_alpha_2" />
+
+    <target
+        android:name="group2_1"
+        android:animation="@animator/history_alpha_2" />
+
+    <target
+        android:name="group2_2"
+        android:animation="@animator/history_alpha_2" />
+
+    <target
+        android:name="group2_3"
+        android:animation="@animator/history_alpha_2" />
+
+
+
+
+    <target
+        android:name="group3_0"
+        android:animation="@animator/history_alpha_3" />
+
+    <target
+        android:name="group3_1"
+        android:animation="@animator/history_alpha_3" />
+    <target
+        android:name="group3_2"
+        android:animation="@animator/history_alpha_3" />
+    <target
+        android:name="group3_3"
+        android:animation="@animator/history_alpha_3" />
+
+
+    <target
+        android:name="group4_0"
+        android:animation="@animator/history_alpha_4" />
+
+    <target
+        android:name="group4_1"
+        android:animation="@animator/history_alpha_4" />
+
+    <target
+        android:name="group4_2"
+        android:animation="@animator/history_alpha_4" />
+
+    <target
+        android:name="group4_3"
+        android:animation="@animator/history_alpha_4" />
+
+    <!--<target-->
+        <!--android:name="group4_4"-->
+        <!--android:animation="@animator/history_alpha_4" />-->
+
+    <target
+        android:name="group4_5"
+        android:animation="@animator/history_alpha_4" />
+
+
+    <target
+        android:name="group4_6"
+        android:animation="@animator/history_alpha_4" />
+
+
+
+
+
+</animated-vector>

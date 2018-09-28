@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="colorPrimary">#0d1220</color>
+    <color name="colorPrimaryDark">#151a28</color>
+    <color name="colorAccent">#f16a21</color>
+
+
+    <!--intro screen backgopund colors-->
+    <color name="intro1">#223e6a</color>
+    <color name="intro2">#f27127</color>
+    <color name="intro3">#b52a2a</color>
+    <color name="intro_desc_text_color">#FFFFFF</color>
+    <color name="intro_title_text_color">#FFFFFF</color>
+
+    <!--menu colors-->
+    <color name="menu_header_color">#14548c</color>
+    <color name="menu_main_color">#141928</color>
+    <color name="menu_text_color">#ffffff</color>
+    <color name="menu_space_item_color">#6a7595</color>
+
+
+    <!--home screen Music View-->
+    <color name="song_title_color">#ffffff</color>
+    <color name="wave_color">#bfb6c0dc</color>
+    <color name="wave_filled_color">#f16a21</color>
+    <color name="menu_dots_colors">#ffffff</color>
+    <color name="song_background_blur_color">#af0d1220</color>
+
+    <!--feedback screen-->
+    <color name="feedbck_main_title">#175da9</color>
+    <color name="feedback_home_title_color">#ffffffff</color>
+    <color name="feedback_options_text_color">#ffffffff</color>
+    <color name="feedback_options_text_hint">#aaa</color>
+    <color name="feedback_options_submit_text_color">#ffffff</color>
+    <color name="feedback_options_submit_button_color">#175da9</color>
+    <color name="feedback_options_submit_button_color_error">#ffff4444</color>
+    <color name="feedback_options_submit_button_color_error_dark">#ffcd3a3a</color>
+    <color name="feedback_options_submit_button_color_error_light">#ffdedede</color>
+
+    <!--about screen-->
+    <color name="about_libraray_text_color">#14548c</color>
+    <color name="about_licences_text_color">#FFFFFF</color>
+    <color name="about_version_text_color">#FFFFFF</color>
+    <color name="about_about_text_color">#FFFFFF</color>
+    <color name="about_main_background">#151a28</color>
+
+    <!--choose Contact screen-->
+    <color name="choose_contacts_main_background">#141928</color>
+    <color name="choose_contacts_name_color">#FFFFFF</color>
+    <color name="choose_contacts_main_color">#141928</color>
+
+    <!--Editor Screen-->
+    <color name="editor_start_end_value_text_color">#f27127</color>
+    <color name="editor_start_end_title_text_color">#91939a</color>
+    <color name="editor_song_title_color">#FFFFFF</color>
+    <color name="editor_playpause_background">#FFFFFF</color>
+    <color name="editor_save_text_color">#FFFFFF</color>
+    <color name="editor_save_button_color">#14548c</color>
+    <color name="editor_options_background">#14548c</color>
+    <color name="edior_options_text_color">#FFFFFF</color>
+    <color name="editor_zoom_color">#FFFFFF</color>
+    <color name="editor_waveform_bg_color">#0d111a</color>
+    <color name="editor_grind_paint_color">#8dffffff</color>
+    <color name="editor_border_line_paint_color">#8dffffff</color>
+    <color name="editor_main_background">#0d1220</color>
+    <color name="editor_play_back_line_paint_color">#ffffff</color>
+    <color name="editor_selected_rectangle_color">#68afadad</color>
+    <color name="editor_mUnselectedline_color">#616161</color>
+    <color name="editor_toast_color">#f27127</color>
+    <color name="editor_playpause_arrow_color">#0d1220</color>
+
+
+
+    <!--Ringtone Alert dialog-->
+    <color name="alert_dialog_main_background">#2a334d</color>
+    <color name="alert_dialog_welldone_text_color">#FFFFFF</color>
+    <color name="alert_dialog_text_color">#FFFFFF</color>
+    <color name="alert_dialog_set_text_color">#FFFFFF</color>
+    <color name="alert_dialog_edit_text_color">#FFFFFF</color>
+    <color name="alert_dialog_buttons_stroke">#FFFFFF</color>
+    <color name="alert_dialog_progress_color">#14548c</color>
+    <color name="alert_dialog_arrow_color">#FFFFFF</color>
+
+
+    <!--Settings Screen-->
+    // To change Settings color change colorAccent
+
+
+    <!--Go Pro Dialog-->
+    <color name="go_pro_dialog_color">#0d1220</color>
+    <color name="go_pro_button_text_color">#FFFFFF</color>
+    <color name="go_pro_desc_text_color">#FFFFFF</color>
+
+
+
+
+
+
+   <!--Misc-->
+    <color name="blueNavy">#2a334d</color>
+    <color name="blue">#175da9</color>
+    <color name="gray">#c1c2c6</color>
+    <color name="whiteHint" tools:keep="@color/whiteHint">#90ffffff</color>
+    <color name="whiteHintLight">#30ffffff</color>
+    <color name="whiteTransparent">#60ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="app_decorview_color">#090c15</color>
+    <color name="app_default_background">#151a28</color>
+
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="InkPageIndicator">
+        <attr name="dotDiameter" format="dimension" />
+        <attr name="dotGap" format="dimension" />
+        <attr name="animationDuration" format="integer" />
+        <attr name="pageIndicatorColor" format="color" />
+        <attr name="currentPageIndicatorColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomCardView">
+        <attr name="HeightRatio" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="MyTextView">
+        <attr name="fontName" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="PlayPauseView">
+        <attr name="PlayPauseView_width" format="dimension" />
+        <attr name="PlayPauseView_distance" format="dimension" />
+        <attr name="PlayPauseView_height" format="dimension" />
+        <attr name="PlayPauseArrow_color" format="color" />
+        <attr name="backgroundcolor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MarkerView">
+        <attr name="setRotation" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="AudioWaveView">
+        <attr format="color" name="waveColor"/>
+        <attr format="color" name="waveFilledColor"/>
+        <attr format="dimension" name="chunkWidth"/>
+        <attr format="dimension" name="chunkHeight"/>
+        <attr format="dimension" name="minChunkHeight"/>
+        <attr format="dimension" name="chunkRadius"/>
+        <attr format="dimension" name="chunkSpacing"/>
+        <attr format="float" name="progress"/>
+        <attr format="boolean" name="animateExpansion"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="CircularProgressButton">
+        <attr name="cpb_selectorIdle" format="reference"/>
+        <attr name="cpb_selectorComplete" format="reference"/>
+        <attr name="cpb_selectorError" format="reference"/>
+        <attr name="cpb_textComplete" format="string"/>
+        <attr name="cpb_textIdle" format="string"/>
+        <attr name="cpb_textError" format="string"/>
+        <attr name="cpb_textProgress" format="string"/>
+        <attr name="cpb_colorProgress" format="color"/>
+        <attr name="cpb_colorIndicator" format="color"/>
+        <attr name="cpb_colorIndicatorBackground" format="color"/>
+        <attr name="cpb_iconError" format="reference"/>
+        <attr name="cpb_iconComplete" format="reference"/>
+        <attr name="cpb_cornerRadius" format="dimension"/>
+        <attr name="cpb_paddingProgress" format="dimension"/>
+        <attr name="cpb_markerwidth" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="CircleProgressBar">
+        <attr name="min" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress2" format="integer" />
+        <attr name="progressbarColor" format="color" />
+        <attr name="progressBarThickness" format="dimension" />
+    </declare-styleable>
+
+</resources>

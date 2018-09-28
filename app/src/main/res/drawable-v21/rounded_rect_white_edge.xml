@@ -1,0 +1,3 @@
+<ripple android:color="@color/blue" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/rounded_rect_white_edge_sub"></item>
+</ripple>
