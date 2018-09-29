@@ -24,6 +24,7 @@
 - [Android-job](https://github.com/evernote/android-job)
 - [Picasso](https://github.com/wasabeef/picasso-transformations)
 - [CircularReveal](https://github.com/ozodrukh/CircularReveal)
+- [NavigationDrawer-WaveAnimation](https://github.com/joseph27/NavigationDrawer-WaveAnimation)
 
 
 ### Changelog
