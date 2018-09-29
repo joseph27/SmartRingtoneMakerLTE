@@ -16,7 +16,7 @@
  
 
 ### For Full Premium Version : [Here](https://codecanyon.net/item/smart-ringtone-maker/22256598)
-### for demo LTE APK : [here](https://github.com/joseph27/SmartRingtoneMakerLTE/blob/master/app/release/smart%20rigntone%20maker%202.1.apk)
+### For Demo LTE APK : [here](https://github.com/joseph27/SmartRingtoneMakerLTE/blob/master/app/release/app-debug.apk)
 
 ### Built With
 - [RingDroid](https://github.com/google/ringdroid)
