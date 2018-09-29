@@ -5,9 +5,9 @@
 
 ### Screenshot
 
-![Application preview](https://images2.imgbox.com/19/0a/0Xl20A87_o.png)
+![Application preview](https://images2.imgbox.com/3c/e3/ZOpw9CZx_o.jpg)
 
-### For Full Premium Version : [Here](https://images2.imgbox.com/3c/e3/ZOpw9CZx_o.jpg)
+### For Full Premium Version : [Here](https://codecanyon.net/item/smart-ringtone-maker/22256598)
 ### for demo LTE APK : [here](https://github.com/joseph27/SmartRingtoneMakerLTE/blob/master/app/release/smart%20rigntone%20maker%202.1.apk)
 
 ### Built With
