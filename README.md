@@ -7,6 +7,14 @@
 
 ![Application preview](https://images2.imgbox.com/3c/e3/ZOpw9CZx_o.jpg)
 
+## Features
+ * Outstanding performance almost 50~60 FPS while drawing the wave  
+ * Inital zoom selection animation based on wave altitude 
+ * WaveForm caching and presenation logic
+ * Sorting based on Play count tracker
+ * Ringtone Suggestion dialog based on Sound Fingerprinting and Firebase (Premium)
+ 
+
 ### For Full Premium Version : [Here](https://codecanyon.net/item/smart-ringtone-maker/22256598)
 ### for demo LTE APK : [here](https://github.com/joseph27/SmartRingtoneMakerLTE/blob/master/app/release/smart%20rigntone%20maker%202.1.apk)
 
